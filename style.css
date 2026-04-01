@@ -42,6 +42,25 @@ img {
   height: auto;
 }
 
-.bear {
+/*.cat {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+}*/
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 2rem;
 }
+
+.cat{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 2px solid #eee;
+  padding: 1rem;
+  overflow: hidden;
+}
+
