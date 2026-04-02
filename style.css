@@ -58,7 +58,7 @@ h1{
 .grid-container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: minmax(250px, auto);
+  grid-auto-rows: minmax(300px, auto);
   max-width:800px;
   margin: 0 auto;
   gap: 1.5rem;
